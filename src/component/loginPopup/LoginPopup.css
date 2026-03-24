@@ -1,0 +1,62 @@
+.LoginForm {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    position: absolute;
+    background-color: #00000090;
+}
+.LoginForm_content {
+    place-self: center;
+    color: #80808080;
+    width: max(23vw,330px);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 30px;
+    gap: 25px;
+    font-size: 14px;
+    border-radius: 8px;
+    animation: fadeIn .5s;
+}
+.LoginForm_content_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+.LoginForm_content_header img {
+    cursor: pointer;
+}
+.LoginForm_content .LoginForm_content_inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.LoginForm_content .LoginForm_content_inputs input {
+    border: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+
+}
+.LoginForm_content .LoginForm_content_Check {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.LoginForm_content .LoginForm_content_Check p {
+    margin-bottom: 0px;
+}
+.LoginForm_content button {
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: tomato;
+}
+.LoginForm_content .LoginForm_content_Permission span {
+    cursor: pointer;
+    color: tomato;
+    font-weight: 500;
+}

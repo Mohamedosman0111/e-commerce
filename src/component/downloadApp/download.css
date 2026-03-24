@@ -1,0 +1,26 @@
+.DownloadApp {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px 0px 10px;
+}
+
+.DownloadApp .DownloadApp_words h3 {
+    font-size: 500;
+    max-width: 500px;
+    margin-bottom: 30px;
+    font-size: max(3vw,22px);
+}
+
+.DownloadApp .DownloadApp_photos {
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.DownloadApp .DownloadApp_photos img {
+    width: 170px;
+    transform: scale(1.05);
+}
